@@ -15,13 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TEST.cpp">
+    <ClCompile Include="题目.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="diguifenzhi.cpp">
+    <ClCompile Include="递归分治.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="dp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="回溯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支界限.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

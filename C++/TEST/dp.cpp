@@ -21,6 +21,9 @@ void Print2DWithShapeOfMNAndFrom1(T a[][N], int m, int n) {
 int JuZhengLianChengZhongLeiShu(int count) {
 	//count表示矩阵个数
 	//分治法
+	if (count == 0) {
+		return 0;
+	}
 	if (count == 1) {
 		return 1;
 	}
@@ -215,7 +218,7 @@ void ZuiYouErChaShu(float* p, int n, float ans[][N], int R[][N]) {
 
 
 
-int main() {
+//int main() {
 	/*
 	dp
 	1	适于求最优解
@@ -246,7 +249,7 @@ int main() {
 			1	上面的A[i...j]子问题的结果保存在二维矩阵ans[i][j]中（显然i<=j，上三角）
 			2	则目标是求A[1][n]的值
 			3	考虑最简情况
-				i==j时，ans[i][j]==0;//不用计算
+				i==j时，ans[i][j]=0;//不用计算
 				i<j时，由上面分析 ans[i][j] = min{ans[i][k]+ans[k+1][j]+A[i]*A[k]*A[j]|i<=k<=j}
 		4	程序
 			1	可以递归，但很多子问题会被重复计算
@@ -399,4 +402,4 @@ int main() {
 	Print2DWithShapeOfMNAndFrom1(R, n, n);
 	*/
 
-}
+//}

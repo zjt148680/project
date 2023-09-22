@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="diguifenzhi.cpp" />
-    <ClCompile Include="TEST.cpp" />
+    <ClCompile Include="分支界限.cpp" />
+    <ClCompile Include="递归分治.cpp" />
+    <ClCompile Include="贪心.cpp" />
+    <ClCompile Include="题目.cpp" />
     <ClCompile Include="dp.cpp" />
+    <ClCompile Include="回溯.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
