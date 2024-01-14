@@ -6,4 +6,14 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - untitled</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.powermock.modules.test.powermockito/powermock-modules-test-powermockito -->
+    <dependency>
+      <groupId>org.powermock.modules.test.powermockito</groupId>
+      <artifactId>powermock-modules-test-powermockito</artifactId>
+      <version>1.4.5-SONATYPE</version>
+    </dependency>
+
+  </dependencies>
 </project>
